@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="356e4162-2311-4011-a027-08313fc0a436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/css/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -51,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="mysite" type="Python.DjangoServer" factoryName="Django server">
@@ -89,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586253016175</updated>
       <workItem from="1586253019958" duration="11062000" />
-      <workItem from="1586285265558" duration="3101000" />
+      <workItem from="1586285265558" duration="4811000" />
+      <workItem from="1586353792703" duration="4288000" />
     </task>
     <servers />
   </component>
@@ -113,18 +106,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="452" y="130" key="FileChooserDialogImpl" timestamp="1586253157626">
+    <state x="452" y="130" key="FileChooserDialogImpl" timestamp="1586354556395">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="452" y="130" key="FileChooserDialogImpl/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586253157626" />
-    <state x="174" y="18" key="SettingsEditor" timestamp="1586253860153">
+    <state x="452" y="130" key="FileChooserDialogImpl/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586354556395" />
+    <state x="452" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586353850720" />
+    <state x="174" y="18" key="SettingsEditor" timestamp="1586354590733">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="174" y="18" key="SettingsEditor/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586253860153" />
+    <state x="174" y="18" key="SettingsEditor/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586354590733" />
+    <state x="174" y="18" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586353899389" />
     <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1586285279733">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="379" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586285279733" />
+    <state x="367" y="210" width="707" height="528" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1586354567088">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="367" y="210" width="707" height="528" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586354567088" />
+    <state x="367" y="233" width="707" height="306" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1586353897164" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1586263900510">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
