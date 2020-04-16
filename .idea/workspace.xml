@@ -20,19 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="356e4162-2311-4011-a027-08313fc0a436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0002_auto_20200416_0435.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0002_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0003_post_tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0002_auto_20200408_1825.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0002_auto_20200416_0435.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post/share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/InstaPy" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
@@ -111,7 +116,8 @@
       <workItem from="1586353792703" duration="16130000" />
       <workItem from="1586635047340" duration="10000" />
       <workItem from="1586635062498" duration="4000" />
-      <workItem from="1587000784588" duration="6727000" />
+      <workItem from="1587000784588" duration="7840000" />
+      <workItem from="1587026893169" duration="5433000" />
     </task>
     <servers />
   </component>
@@ -138,20 +144,24 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1587000862792" />
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587004454623">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587032584779">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1587004454623" />
-    <state x="452" y="130" key="FileChooserDialogImpl" timestamp="1586354556395">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1587032584779" />
+    <state x="452" y="130" key="FileChooserDialogImpl" timestamp="1587012740391">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="452" y="130" key="FileChooserDialogImpl/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586354556395" />
+    <state x="452" y="130" key="FileChooserDialogImpl/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1587012740391" />
     <state x="452" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1586353850720" />
     <state x="174" y="18" key="SettingsEditor" timestamp="1586354590733">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="174" y="18" key="SettingsEditor/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1586354590733" />
     <state x="174" y="18" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1586353899389" />
+    <state x="526" y="141" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587032833789">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="526" y="141" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.738/-1280.0.1280.994@0.0.1366.738" timestamp="1587032833789" />
     <state x="379" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1586635047935">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
